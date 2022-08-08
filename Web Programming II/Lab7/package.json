@@ -1,0 +1,19 @@
+{
+  "name": "lab7",
+  "version": "1.0.0",
+  "description": "Christopher_Cousillas_lab_7",
+  "main": "app",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "axios": "^0.24.0",
+    "bluebird": "^3.7.2",
+    "express": "^4.17.1",
+    "redis": "^3.1.2"
+  }
+}

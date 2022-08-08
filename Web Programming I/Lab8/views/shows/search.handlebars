@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> Shows Found </title>
+</head>
+<a href="/"> Make another search</a>
+<h1> Shows Found </h1>
+<h2 class="underline"> {{{shows.search}}} </h2>
+
+<main>
+	{{#if shows.listShows}}
+	<ul>
+        {{#each shows.listShows}}
+		<li>
+		<a href='/shows/{{this.show.id}}'> {{{this.show.name}}}</a>
+		</li>
+		{{/each}}
+	</ul>
+	{{else}}
+	<p class="not-found">We're sorry, but no results were found for {{shows.search}}.</p>
+	{{/if}}
+</main>
+
+</html>

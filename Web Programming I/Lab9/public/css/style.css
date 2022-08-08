@@ -1,0 +1,51 @@
+html{
+	background-color: #DDDDDD;
+}
+footer{
+	font-family: Georgia, serif;
+	font-size: 20px;
+}
+.not-prime{
+	color: #FF3D00;
+}
+
+.is-prime{
+	color: #00E676;
+}
+
+button{
+	background-color: #800000;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	border-radius: 10px;
+
+}
+
+#num_input{
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+h1{
+	font-family: Georgia, serif;
+	color: #EE6363;
+}
+
+.l{
+	color:#8B7765;
+}
+
+body{
+	background-color: 	#A9A9A9;
+}
+
+ol{
+	font-size: 23px;
+}

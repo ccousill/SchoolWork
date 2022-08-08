@@ -1,0 +1,43 @@
+<nav>
+    <ul>
+        <li><a href="/dashboard/journal" action>Journal</a></li>
+        <li><a href="/dashboard/log">Log</a></li>
+        <li><a href="/dashboard">Find Fish!</a></li>
+        <li><a class="selected" href="/dashboard/forum">Forum</a></li>
+        <li><a href="/logout" action>Log out</a></li>
+    </ul>
+</nav>
+
+<div id="forum-container">
+{{#if error}}
+<p>Error: {{error}}</p>
+{{/if}}
+    <h1>Forum</h1>
+
+<!-- temporary forum post skeleton -->
+
+    <form id ="postForm"> 
+        <label for = "title"> Insert a title! </label>
+        <input type="text" id = "title">
+        <br>
+		<label for = "caption"> Insert a caption! </label>
+        <input type="text" id = "caption">
+        <br>
+        <button type ="submit"> Post! </button>
+	</form>
+	<br>
+
+
+    <!-- div "posts" contains all posts -->
+	<div id="posts">
+    <!-- div tag "post" is a single post containing different content -->
+		<div id="post"></div>
+	</div>
+
+
+</div>
+
+
+
+<script src ="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="/public/forum2.js"></script>

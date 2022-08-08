@@ -1,0 +1,163 @@
+body {
+  background-color: #b0b0b0;
+  text-align: center;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #99ffff;
+  width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 200px;
+}
+
+.groupmembers {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #99ffff;
+  width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 200px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #66ccff;
+  margin-top: 16px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 16px;
+  box-shadow: 0px 0px 4px #ee0000;
+  border-radius: 10px;
+  width: 600px;
+}
+
+.content.equations {
+  background-color: #ffebcd;
+  padding: 0px;
+  width: 550px;
+  border-radius: 0px;
+}
+
+.submit {
+  margin-top: 10px;
+  width: 550px;
+}
+
+.study {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #98ff98;
+  margin-top: 16px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 16px;
+  box-shadow: 0px 0px 4px #ee0000;
+  border-radius: 10px;
+  width: 600px;
+}
+
+.motivation {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cursive {
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-style: italic;
+}
+
+ul {
+  text-align: left;
+  list-style-type: circle;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    border-radius: 50px;
+    width: 320px;
+  }
+
+  .groupmembers {
+    border-radius: 50px;
+    width: 320px;
+  }
+
+  .content {
+    width: 300px;
+  }
+
+  .content.equations {
+    width: 225px;
+  }
+
+  .submit {
+    width: 225px;
+  }
+
+  .study {
+    width: 300px;
+  }
+
+  .motivation {
+    position: relative;
+    top: 10px;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 991px) {
+  h1 {
+    width: 550px;
+  }
+
+  .groupmembers {
+    width: 550px;
+  }
+
+  .content {
+    width: 550px;
+  }
+
+  .content.equations {
+    width: 475px;
+  }
+
+  .submit {
+    width: 475px;
+  }
+
+  .study {
+    width: 550px;
+  }
+
+  .motivation {
+    position: relative;
+    top: 10px;
+  }
+  
+  img {
+    width: 350px;
+    height: 300px; 
+  }
+}
+

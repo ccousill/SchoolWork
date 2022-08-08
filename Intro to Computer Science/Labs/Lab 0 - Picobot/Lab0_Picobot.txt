@@ -1,0 +1,32 @@
+#Christopher Cousillas
+#I pledge my honor that I have abided by the Stevens Honor System
+
+#Square fill
+0 x*** -> n 0
+0 nx** -> e 0
+0 ne** -> x 1
+
+1 **x* -> w 1
+1 **wx -> s 2
+
+2 *x** -> e 2
+2 *E*x -> s 1
+
+
+#Maze
+0 x*** -> n 3
+0 N*x* -> w 0
+0 N*W* -> X 1
+
+1 ***x -> s 2
+1 *x*s -> e 1
+1 *e*s -> x 3
+
+2 **x* -> w 0
+2 **wx -> s 2
+2 **ws -> x 3
+
+3 *x** -> e 1
+3 xe** -> n 3
+3 ne** -> x 0
+

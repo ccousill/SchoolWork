@@ -1,0 +1,154 @@
+/* Put your solutions to the assignment here */
+body{
+	background-color:#eee
+}
+
+header{
+	background-color:#49516f;
+	display:flex;
+	padding-bottom:20px;
+	padding-top:20px;
+	align-items:center;
+}
+
+header h1{
+	margin:0px;
+	color:white;
+	
+}
+
+header span{
+	margin:0px;
+	color:white;
+}
+
+.logo{
+	border-width:5px;
+	padding:5px;
+	margin:10px;
+	height:100px;
+	width:100px;
+	border-style:solid;
+	border-color:white;
+}
+
+.posts{
+	display:flex;
+	flex-wrap: wrap;
+}
+
+.post{
+	flex-grow:1;
+}
+
+.post-body{
+	height:200px;
+	width:200px;
+}
+
+	
+.post-container{
+	margin:10px;
+	padding:10px;
+	background-color:white;
+	display:flex;
+	text-align:center;
+}
+
+.post-pic{
+	height:200px;
+	width:200px;
+	margin-right:10px;
+	
+}
+
+@media screen and (min-width: 999px) {
+   
+.posts {
+    flex-direction: column;
+    align-items:center;
+	justify-content:center;
+
+	
+}
+   
+  .post{
+	  max-width:800px;
+	  flex-grow:inherit;
+  }
+
+
+   
+}
+
+@media screen and (max-width:998px) and (min-width:400px){
+header{
+	justify-content:center;
+}
+
+.posts{
+	flex-direction:row;
+	flex-wrap:wrap;
+}
+
+.post-container{
+	flex-direction:column;
+}
+	
+.post{
+	flex:50%
+}
+
+.post-pic{
+	width:100%;
+	height:auto;
+}
+
+}
+
+@media screen and (max-width:399px){
+	
+header{
+	flex-direction:column;
+	text-align:center;
+}
+
+.logo{
+	border-radius:50%;
+}
+.posts{
+	flex-basis:auto;
+	flex-direction:column
+}
+
+.post-container{
+	flex-direction:column;
+}
+
+.post-pic{
+	Width:100%;
+	Height:auto;
+}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

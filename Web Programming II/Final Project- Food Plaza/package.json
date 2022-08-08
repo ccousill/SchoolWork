@@ -1,0 +1,31 @@
+{
+  "name": "cs-554-final",
+  "version": "1.0.0",
+  "description": "Final Project for CS554",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShawnPollock/CS-554-Final.git"
+  },
+  "author": "Shawn Pollock, Chris Cousillas, Bhagyesh Patel, Kishan Patel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShawnPollock/CS-554-Final/issues"
+  },
+  "homepage": "https://github.com/ShawnPollock/CS-554-Final#readme",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "heap-js": "^2.1.6",
+    "jwt-decode": "^3.1.2",
+    "mongodb": "^4.1.4",
+    "react": "^17.0.2",
+    "redis": "^3.1.2",
+    "xss": "^1.0.10"
+  }
+}

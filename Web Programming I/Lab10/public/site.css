@@ -1,0 +1,57 @@
+html {
+	background: #D3D3D3;
+	border-style: solid; 
+	border-color: seagreen;
+}
+
+h1{
+	font-weight: bold;
+	color: #117864 
+}
+
+h3{
+	font-family: Georgia, serif;
+	color: #2E4053;
+}
+
+.button{
+	cursor: pointer;
+	border: none;
+	background-color: #9c4bb4;
+	padding: 12px 30px;
+  	text-align: center;
+  	color: #FFFFFF; 
+  	border-radius: 4px;
+}
+
+#username{
+
+  width: 28%;
+  padding: 4px 20px;
+  margin: 4px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+#password{
+  width: 28.3%;
+  padding: 4px 20px;
+  margin: 4px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.labelp{
+	color: maroon;
+}
+
+.labelu{
+	color: maroon;
+}
+
+.error{
+	color: red;
+}

@@ -1,0 +1,16 @@
+{
+  "name": "lab6",
+  "version": "1.0.0",
+  "description": "lab 6 CS 546",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Christopher Cousillas",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongo": "^0.1.0"
+  }
+}

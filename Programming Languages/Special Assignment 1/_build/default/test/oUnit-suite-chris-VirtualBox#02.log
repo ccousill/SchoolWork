@@ -1,0 +1,12 @@
+2020-03-29T20:21:04+00:00 chris-VirtualBox#02 I: Start test suite:1:add.
+2020-03-29T20:21:04+00:00 chris-VirtualBox#02 I: Test suite:1:add is successful.
+2020-03-29T20:21:04+00:00 chris-VirtualBox#02 I: End test suite:1:add.
+2020-03-29T20:21:04+00:00 chris-VirtualBox#02 I: Start test suite:2:adds.
+2020-03-29T20:21:04+00:00 chris-VirtualBox#02 I: Test suite:2:adds is successful.
+2020-03-29T20:21:04+00:00 chris-VirtualBox#02 I: End test suite:2:adds.
+2020-03-29T20:21:04+00:00 chris-VirtualBox#02 I: Start test suite:4:lets.
+2020-03-29T20:21:04+00:00 chris-VirtualBox#02 I: Test suite:4:lets is successful.
+2020-03-29T20:21:04+00:00 chris-VirtualBox#02 I: End test suite:4:lets.
+2020-03-29T20:21:04+00:00 chris-VirtualBox#02 I: Start test suite:7:letrec_factorial.
+2020-03-29T20:21:04+00:00 chris-VirtualBox#02 I: Test suite:7:letrec_factorial is successful.
+2020-03-29T20:21:04+00:00 chris-VirtualBox#02 I: End test suite:7:letrec_factorial.

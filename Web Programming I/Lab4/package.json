@@ -1,0 +1,18 @@
+{
+  "name": "lab-4-cs-546",
+  "version": "1.0.0",
+  "description": "Lab 4 mongodb",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Christopher Cousillas",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.6.2"
+  }
+}

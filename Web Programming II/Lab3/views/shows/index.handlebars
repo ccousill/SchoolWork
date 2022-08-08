@@ -1,0 +1,12 @@
+
+<h1> Show Finder </h1>
+<a href="/popularsearches" class = "popular"> Popular searches! </a>
+<p> This website searches the tv maze api and gives you results based on your search. Your search will include results, where each can be clicked on to read more information on it. </p>
+	<ul>
+		{{#each shows}}
+		<li>
+			<a href='/shows/{{this.id}}'> {{this.name}}</a>
+		</li>
+		{{/each}}
+	</ul>
+

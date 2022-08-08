@@ -1,0 +1,15 @@
+
+<a href="/"> Back to Homepage</a>
+<h1> Shows Found </h1>
+<h2 class="underline"> {{{shows.search}}} </h2>
+{{#if shows.listShows}}
+<ul>
+	{{#each shows.listShows}}
+	<li>
+		<a href='/shows/{{this.show.id}}'> {{{this.show.name}}}</a>
+	</li>
+	{{/each}}
+</ul>
+{{else}}
+<p class="not-found">We're sorry, but no results were found for {{shows.search}}.</p>
+{{/if}}

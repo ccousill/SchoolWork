@@ -14,8 +14,7 @@ const SearchCharacters = (props) => {
 			className='center'
 		>
 			<label>
-				<span>Search Characters: </span>
-				<input autoComplete='off' type='text' name='searchTerm' onChange={handleChange} />
+				<input placeholder="Search Characters..." className="searchBar" autoComplete='off' type='text' name='searchTerm' onChange={handleChange} />
 			</label>
 		</form>
 	);

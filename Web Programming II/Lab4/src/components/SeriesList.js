@@ -166,7 +166,7 @@ const SeriesList = (props) => {
 
 	return (
 		<div className ="App-body">
-		<h1> Marvel Seriess! </h1>
+		<h1 className="listTitle">Marvel Series</h1>
 		{prevPage}
 		<br />
 		{nextPage}

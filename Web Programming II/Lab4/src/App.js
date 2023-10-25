@@ -14,8 +14,8 @@ function App() {
     <Router>
     <div className="App">
       <header className="App-header">
-        <p> Marvel API page </p>
-        <Link className="App-link" to ='/'> Home </Link>
+        <h1> Marvel API page </h1>
+        <Link className="App-link" to ='/'><div className="homeLinkDiv"> Home </div> </Link>
       </header>
 
       <br />

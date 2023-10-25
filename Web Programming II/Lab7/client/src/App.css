@@ -13,9 +13,25 @@
   }
 }
 
+/* Nav */
+
+.navLinks{
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.navLinks a{
+  text-decoration: none;
+}
+
+.navLinks a:hover{
+  text-decoration: underline;
+}
+
 .App-header {
   background-color: #282c34;
-  min-height: 30vh;
+  min-height: 20vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -33,13 +49,19 @@
 .simple-button{
   background-color: #00829a;
   color: #FFFFFF;
-  margin: auto;
-  width: 10%;
   padding: 10px;
+}
+
+.simple-button-catch{
+  background-color: #00829a;
+  color: #FFFFFF;
+  padding: 10px;
+  width: 8rem;
 }
 
 .App-link {
   color: #61dafb;
+  width: 200px;
 }
 .selected {
   background-color: red;
@@ -121,3 +143,51 @@ hr{
   .button-19:disabled {
     cursor: auto;
   }
+
+
+/* Pokemon List*/
+
+.pokemonTitle{
+  font-size: 50px;
+}
+
+.pokemonList{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 5rem;
+  justify-content: center;
+  align-items: center;
+}
+.pokemon{
+  padding: 4rem;
+  margin: 3rem;
+  border-radius: 16px;
+  box-shadow: 10px 5px 5px grey;
+  background-color: #282c34; 
+}
+
+.pokemonName{
+  text-decoration: none;
+  color: white;
+  font-size: 32px;
+}
+
+.addTrainerButton{
+  background-color: #00829a;
+  color: #FFFFFF;
+  padding: 5px;
+  width: 6rem;
+  margin-top: 1rem;
+}
+
+.pageNav{
+  text-decoration: none;
+  font-size: 24px;
+  color:#282c34
+}
+
+.pageNav:hover{
+  text-decoration: underline;
+  color:black;
+}

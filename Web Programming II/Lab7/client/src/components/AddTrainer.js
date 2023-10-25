@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import actions from '../actions';
+import '../App.css'
 
 function AddTrainer() {
   const dispatch = useDispatch();
@@ -19,7 +20,6 @@ function AddTrainer() {
     <div className="add">
       <div className="input-selection">
         <label>
-          Trainer:
           <input
             onChange={(e) => handleChange(e)}
             id="team"
@@ -28,7 +28,7 @@ function AddTrainer() {
           />
         </label>
       </div>
-      <button onClick={addTrainer}>Add Trainer</button>
+      <button className="addTrainerButton" onClick={addTrainer}>Add</button>
     </div>
   );
 }

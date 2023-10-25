@@ -5,9 +5,9 @@ const Home = () => {
 	return (
 		<div>
 
-			<p>
-				This website lets you choose a trainer and catch pokemon!
-			</p>
+			<h1>
+				This website lets you choose a trainer and catch pokemon to assemble a team!
+			</h1>
 
 		</div>
 		
